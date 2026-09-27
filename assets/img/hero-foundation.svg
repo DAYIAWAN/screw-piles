@@ -1,0 +1,67 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F5F7FA"/>
+      <stop offset="0.45" stop-color="#AEB7C2"/>
+      <stop offset="1" stop-color="#626C79"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#392E29"/>
+      <stop offset="1" stop-color="#18171A"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#88D7FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#236A8C" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="#0C1015"/>
+  <g opacity="0.18" stroke="#FF7A33">
+    <path d="M80 120H1120M80 180H1120M80 240H1120M80 300H1120M80 360H1120M80 420H1120M80 480H1120M80 540H1120M80 600H1120M80 660H1120M80 720H1120"/>
+    <path d="M140 80V780M220 80V780M300 80V780M380 80V780M460 80V780M540 80V780M620 80V780M700 80V780M780 80V780M860 80V780M940 80V780M1020 80V780"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M228 452L598 255L970 452L602 650L228 452Z" fill="#1A222C" stroke="#465160" stroke-width="4"/>
+    <path d="M598 255L970 452V570L602 766V650L598 255Z" fill="#111820"/>
+    <path d="M228 452L602 650V766L228 568V452Z" fill="#161D25"/>
+    <path d="M307 432L598 278L891 432L600 586L307 432Z" fill="#2C3743" stroke="#657385" stroke-width="3"/>
+    <path d="M374 396L598 277L821 395L598 512L374 396Z" fill="#C6CFD9"/>
+    <path d="M398 382L598 276L798 381L598 486L398 382Z" fill="#E7ECF2"/>
+    <path d="M460 348L598 276L735 348V420L598 492L460 420V348Z" fill="#D7DEE7"/>
+    <path d="M598 276L735 348L598 420L460 348L598 276Z" fill="#F3F6F9"/>
+    <path d="M485 359L598 300L711 359L598 418L485 359Z" fill="#314150"/>
+    <path d="M497 359L598 307L699 359L598 412L497 359Z" fill="url(#glass)"/>
+    <path d="M467 417L598 486V560L467 491V417Z" fill="#B8C2CE"/>
+    <path d="M598 486L729 417V491L598 560V486Z" fill="#929DAA"/>
+    <path d="M505 437L564 468V521L505 490V437Z" fill="#5FA4C1"/>
+    <path d="M631 469L690 438V491L631 522V469Z" fill="#4D91AF"/>
+    <path d="M279 458L600 627L920 458" stroke="#F2A14B" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <g>
+    <rect x="234" y="555" width="735" height="103" rx="18" fill="url(#ground)" stroke="#3C332F" stroke-width="2"/>
+    <path d="M234 590C330 560 407 627 515 590C619 555 734 633 830 592C889 567 927 571 969 586V658H234V590Z" fill="#241F1D"/>
+  </g>
+  <g stroke="url(#steel)" stroke-width="22" stroke-linecap="round">
+    <path d="M336 499V707"/>
+    <path d="M500 585V776"/>
+    <path d="M702 585V776"/>
+    <path d="M867 499V707"/>
+  </g>
+  <g fill="none" stroke="#C8D0D9" stroke-width="8">
+    <path d="M317 650C346 625 358 680 330 689C300 698 299 646 335 630"/>
+    <path d="M481 720C510 695 522 750 494 759C464 768 463 716 499 700"/>
+    <path d="M683 720C712 695 724 750 696 759C666 768 665 716 701 700"/>
+    <path d="M848 650C877 625 889 680 861 689C831 698 830 646 866 630"/>
+  </g>
+  <g fill="#FF7A33">
+    <circle cx="336" cy="707" r="10"/>
+    <circle cx="500" cy="776" r="10"/>
+    <circle cx="702" cy="776" r="10"/>
+    <circle cx="867" cy="707" r="10"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#DDE4EC">
+    <text x="83" y="826">Свайно-винтовой фундамент • техническая схема</text>
+  </g>
+</svg>
